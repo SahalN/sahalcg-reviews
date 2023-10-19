@@ -6,14 +6,14 @@ import "./globals.css";
 export default function RootLayout({ children }) {
   return (
     <html lang='en'>
-      <body>
+      <body className='flex flex-col min-h-screen px-40 py-10 '>
         <header>
           <nav>
-            <ul>
+            <ul className='flex gap-2 '>
               <li>
                 <Link href='/'>Home</Link>
               </li>
-              <li>
+              <li className='ml-auto'>
                 <Link href='/reviews'>Reviews</Link>
               </li>
               <li>
@@ -22,8 +22,8 @@ export default function RootLayout({ children }) {
             </ul>
           </nav>
         </header>
-        <main>{children}</main>
-        <footer></footer>
+        <main className='mt-2'>{children}</main>
+        <footer>Sahal Nurdin</footer>
       </body>
     </html>
   );
