@@ -2,27 +2,14 @@
 
 import Link from "next/link";
 import "./globals.css";
+import Navbar from "../components/Navbar";
 
 export default function RootLayout({ children }) {
   return (
     <html lang='en'>
-      <body className='flex flex-col min-h-screen px-40 py-10 '>
+      <body className='flex flex-col min-h-screen px-40 py-10 bg-cyan-500'>
         <header>
-          <nav>
-            <ul className='flex gap-2 '>
-              <li>
-                <Link href='/'>Home</Link>
-              </li>
-              <li className='ml-auto'>
-                <Link href='/reviews'>Reviews</Link>
-              </li>
-              <li>
-                <Link href='/about' prefetch={false}>
-                  About
-                </Link>
-              </li>
-            </ul>
-          </nav>
+          <Navbar />
         </header>
         <main className='mt-2 grow '>{children}</main>
         <footer className='text-center'>&copy; Sahal Nurdin</footer>

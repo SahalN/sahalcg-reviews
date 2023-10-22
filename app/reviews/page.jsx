@@ -8,7 +8,7 @@ export default function ReviewsPage() {
       <h1>Hello reviews</h1>
       <ul>
         <li>
-          <h1>Page Reviews</h1>
+          <Link href='/reviews/the-race'>The Race CGI's Reviews</Link>
         </li>
       </ul>
     </>
