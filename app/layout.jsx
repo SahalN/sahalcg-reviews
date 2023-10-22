@@ -17,13 +17,15 @@ export default function RootLayout({ children }) {
                 <Link href='/reviews'>Reviews</Link>
               </li>
               <li>
-                <Link href='/about'>About</Link>
+                <Link href='/about' prefetch={false}>
+                  About
+                </Link>
               </li>
             </ul>
           </nav>
         </header>
-        <main className='mt-2'>{children}</main>
-        <footer>Sahal Nurdin</footer>
+        <main className='mt-2 grow '>{children}</main>
+        <footer className='text-center'>&copy; Sahal Nurdin</footer>
       </body>
     </html>
   );
