@@ -2,11 +2,11 @@
 
 import "./globals.css";
 import Navbar from "../components/Navbar";
-import { mplusrounded1c } from "./fonts";
+import { inter, mplusrounded1c } from "./fonts";
 
 export default function RootLayout({ children }) {
   return (
-    <html lang='en' className={mplusrounded1c.variable}>
+    <html lang='en' className={`${inter.variable} ${mplusrounded1c.variable} `}>
       <body className='flex flex-col min-h-screen px-40 py-10 bg-cyan-500'>
         <header>
           <Navbar />

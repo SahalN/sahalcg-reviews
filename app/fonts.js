@@ -10,5 +10,5 @@ export const inter = Inter({
 export const mplusrounded1c = M_PLUS_Rounded_1c({
   subsets: ["latin"],
   variable: "--font-mplusrounded1c",
-  weight: "800",
+  weight: ["900"],
 });
