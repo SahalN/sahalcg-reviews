@@ -1,9 +1,11 @@
 /** @format */
 
+import Heading from "@/components/Heading";
+
 export default function TheracePage() {
   return (
     <>
-      <h1>The Race CGI Review</h1>{" "}
+      <Heading>The Race CGI Review</Heading>{" "}
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta,
         obcaecati odio doloribus error vero officia minima fuga illo molestias
