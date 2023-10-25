@@ -12,7 +12,7 @@ export default function RootLayout({ children }) {
           <Navbar />
         </header>
         <main className='mt-2 grow'>{children}</main>
-        <footer className='text-center'>
+        <footer className='text-center text-sm font-light'>
           &copy; Sahal Nurdin | Copyright 2023
         </footer>
       </body>
