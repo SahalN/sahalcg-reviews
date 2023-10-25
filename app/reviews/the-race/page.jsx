@@ -1,19 +1,13 @@
 /** @format */
 
 import Heading from "@/components/Heading";
+import { readFile } from "node:fs/promises";
 
-export default function TheracePage() {
+export default async function TheracePage() {
+  const html = await readFile("./content/reviews/the-race.md", "utf-8");
   return (
     <>
-      <Heading>The Race CGI Review</Heading>{" "}
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta,
-        obcaecati odio doloribus error vero officia minima fuga illo molestias
-        velit voluptatum adipisci cupiditate fugiat impedit veniam facere non
-        minus facilis enim nesciunt. Est, eaque aliquam fuga officiis, maiores
-        ab veritatis animi laborum quae odit et deserunt quisquam nostrum harum
-        esse.
-      </p>
+      <Heading>The Race CGI Review</Heading> {html}
     </>
   );
 }

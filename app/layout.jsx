@@ -7,7 +7,7 @@ import { inter, mplusrounded1c } from "./fonts";
 export default function RootLayout({ children }) {
   return (
     <html lang='en' className={`${inter.variable} ${mplusrounded1c.variable} `}>
-      <body className='flex flex-col min-h-screen px-40 py-10 bg-cyan-500'>
+      <body className='flex flex-col min-h-screen px-40 py-10 bg-[#45474B] text-white'>
         <header>
           <Navbar />
         </header>
