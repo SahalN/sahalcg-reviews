@@ -1,3 +1,9 @@
+---
+title: "The Race"
+date: "2023-06-07"
+image: "images/the-race-jpg"
+---
+
 <!-- @format -->
 
 Climate change, a term that once sounded distant and obscure, has now become an ominous cloud looming over our world. Its far-reaching effects are increasingly evident, and the consequences for our environment and society are more dire than ever.
